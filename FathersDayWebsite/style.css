@@ -1,0 +1,190 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family: Arial, sans-serif;
+
+    background-color: rgb(244, 244, 228);
+
+    text-align:center;
+
+}
+
+header{
+
+    background:#c4dafc;
+
+    color:white;
+
+    padding:50px 20px;
+
+}
+
+header h1{
+
+    font-size:3rem;
+
+}
+
+header p{
+
+    margin-top:10px;
+
+    font-size:1.2rem;
+
+}
+
+.main-photo{
+
+    margin:30px;
+
+}
+
+.main-photo img{
+
+    width:300px;
+
+    border-radius:20px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+
+}
+
+.message-box{
+
+    width:80%;
+
+    max-width:700px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+.message-box h2{
+
+    margin-bottom:15px;
+
+}
+
+.message-box p{
+
+    margin:10px 0;
+
+    line-height:1.8;
+
+}
+
+.gallery{
+
+    margin:50px 20px;
+
+}
+
+.gallery h2{
+
+    margin-bottom:20px;
+
+}
+
+.gallery-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.gallery-container img{
+
+    width:250px;
+
+    height:250px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+    transition:0.3s;
+
+}
+
+.gallery-container img:hover{
+
+    transform:scale(1.05);
+
+}
+
+.surprise{
+
+    margin:50px;
+
+}
+
+button{
+
+    background:#ff6b6b;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 30px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
+
+button:hover{
+
+    background:#ff4d4d;
+
+}
+
+#hiddenMessage{
+
+    margin-top:20px;
+
+    font-size:22px;
+
+    color:#3a506b;
+
+    font-weight:bold;
+
+}
+
+#hiddenMessage2{
+
+    margin-top:20px;
+
+    font-size:22px;
+
+    color:#3a506b;
+
+    font-weight:bold;
+
+}
+ 
